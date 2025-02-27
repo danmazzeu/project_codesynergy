@@ -74,7 +74,7 @@ header section img {
     header section ul {
         display: flex;
         gap: 10px;
-        row-gap: 30.5px;
+        row-gap: 31.5px;
         flex-wrap: wrap;
     }
     header section ul li a i { font-size: 25px; }
