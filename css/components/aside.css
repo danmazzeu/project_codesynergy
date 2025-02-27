@@ -25,6 +25,7 @@ aside ul li a:visited {
     display: block;
     width: 100%;
     padding: 15px;
+    font-size: 15px;
     color: #000;
     border-bottom: 1px solid #d3477c;
 }
