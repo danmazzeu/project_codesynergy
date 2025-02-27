@@ -1,0 +1,40 @@
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 200px;
+    height: 100vh;
+    display: none;
+    background-color: #f35c93;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+aside.open {
+    display: flex;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+aside ul li a,
+aside ul li a:visited {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    border-bottom: 1px solid #d3477c;
+}
+
+aside ul li a:hover,
+aside ul li a:active {
+    color: #f35c93;
+    background-color: #000;
+}
+
+@media all and (min-width: 800px) {
+    aside { display: none !important; }
+}
